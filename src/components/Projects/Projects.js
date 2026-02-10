@@ -8,6 +8,8 @@ import gotobed from "../../Assets/Projects/gotobed.png";
 import physhing from "../../Assets/Projects/physhing.png";
 import appscript from "../../Assets/Projects/appscript.png";
 import maidchan from "../../Assets/Projects/maidchan.jpg";
+import music from "../../Assets/Projects/demoMusic.png";
+import taskManagement from "../../Assets/Projects/demoTask.png";
 
 function Projects() {
   return (
@@ -23,11 +25,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={physhing}
+              imgPath={music}
               isBlog={false}
-              title="Physhing detection Programme NLP"
-              description="This project focuses on Phishing Email Detection Using Machine Learning, addressing the limitations of traditional rule-based security systems. Using a Kaggle dataset of 18,600 emails, I implemented a robust detection framework incorporating Bag of Words (BoW) for feature extraction and evaluated five distinct classifiers: Logistic Regression, Naive Bayes, Random Forest, SVM, and an Ensemble Model. The Ensemble Model achieved the highest performance with 96.91% accuracy and a 96.27% F1 score. This work demonstrates proficiency in optimizing model trade-offs between speed and accuracy to deploy scalable solutions for real-world cybersecurity challenges."
-              ghLink="https://github.com/Felixxitran/physing-detection-AI.git"
+              title="Task Management Web Application"
+              description="A full-stack task management web application that allows users to create, organize, and track tasks. Built with a client-server architecture using TypeScript, likely with a React frontend and Node.js/Express backend, structured as a monorepo with shared TypeScript configuration."
+              ghLink="https://github.com/Felixxitran/taskManagement.git"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -70,12 +72,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={appscript}
+              imgPath={music}
               isBlog={false}
-              title="Newspaper information extraction"
-              description="I wrote this programme in AppScript and basically, for anylinks about any news in the google sheet form without having being summarized the need information.The programme will extract the information.The purpose is that the company requires member read tons of news everyday and it takes tons of time to do so. My programme help them read faster and more efficient.The programme not only works with website links but also with website pdf files. I wrote this programme using ChatgptAPI and javascript webscraping libraries. "
-              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              demoLink="https://drive.google.com/file/d/1UOy5zkbQpKxPjHgLMH_tVvUyk7fkCwJF/view?usp=sharing" 
+              title="Music Streaming Web Application"
+              description="A full-stack music streaming web application using TypeScript, React, and Node.js with a client-server architecture. Designed and implemented a responsive frontend for browsing and discovering music, along with a backend API to handle data management. Utilized a monorepo structure with shared TypeScript configuration to ensure type safety and maintainable code across the entire stack."
+              ghLink="https://github.com/Felixxitran/musicWebsite.git"
+              // demoLink="https://drive.google.com/file/d/1UOy5zkbQpKxPjHgLMH_tVvUyk7fkCwJF/view?usp=sharing" 
             />
           </Col>
 
@@ -83,7 +85,7 @@ function Projects() {
             <ProjectCard
               imgPath={shipping}
               isBlog={false}
-              title="Full Stack App for shipping company"
+              title="Full Stack Mobile App to manage shipping and track shipment in real time"
               description="The programme is an app that help the shipping company to track their shipment in real time and notify the customer when the shipment arrive at the destination.The app is built with React Native for frontend with OCR features using Microsoft Azure API and backend is built with C# ASP.NET with SQL database."
               ghLink="https://github.com/Felixxitran/seatech-sync.git"
               demoLink="https://drive.google.com/file/d/1Qw0mHb0EAESKHNVNNVyo2WOGlL9qfNWT/view?usp=sharing"       
